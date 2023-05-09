@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GNB_1-1</title>
+    <script src="jquery-3.6.4.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="clear">
+        <h1>
+            <a href="#">LOGO</a>
+        </h1>
+        <nav>
+            <!-- 블록속성의 자식요소들이 2개이상이 있으면 감싸는 부모요소를 작성하는 것이 좋습니다
+            (이유는 보통 블록속성은 가로배치를 하는 경우가 많기 때문에 가로배치하는 경우를 대비해서 부모요소로
+            감싸는 경우가 많습니다) -->
+            <div class="nav_bg"></div>
+            <ul id="gnb" class="clear">
+                <li>
+                    <a href="#">회사소개</a>
+                    <ul>
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">조직구성도</a></li>
+                        <li><a href="#">오시는길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">사업영역</a>
+                    <ul>
+                        <li><a href="#">전원주택</a></li>
+                        <li><a href="#">도시재생</a></li>
+                        <li><a href="#">인테리어</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">입주정보</a>
+                    <ul>
+                        <li><a href="#">입주단지</a></li>
+                        <li><a href="#">입주캘린더</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">고객센터</a>
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">건축상담</a></li>
+                        <li><a href="#">홍보자료실</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
